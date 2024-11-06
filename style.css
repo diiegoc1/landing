@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#principal{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro{
+    text-align: center;
+    color: #f8efef;
+    z-index: 2;
+}
+.intro h1{
+    font-weight: lighter;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    letter-spacing: 0.55rem;
+}
+.intro p {
+    font-size: 0.9rem;
+    letter-spacing: 0.25rem;
+    line-height: 1.5rem;
+    margin-bottom: 30px;
+}
+.intro a {
+    display: inline-block;
+    padding: 1.2rem 4.5rem;
+    background-color: #f8efef;
+    color: #4dc3cd;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: all 0.3s; 
+}
+.intro a:hover{
+    background-color: transparent;
+    border-color: #f8efef;
+    color: #f8efef;
+}
+video{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1c1c1d;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+    
+}
